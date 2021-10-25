@@ -1,0 +1,27 @@
+package numericData;
+
+public class Exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+        String name1="Kedah Matriculation College";
+		String name2="Fawatim Nural Ain binti Noor Aris";
+		int duration=1,total=2;
+		double gpa1=4.00,gpa2=4.00,cgpa;
+		char grade='A';
+		
+		cgpa=(gpa1+gpa2)/2;
+		
+		System.out.println("Academic Transcript");
+		System.out.println("Matriculation name is : "+name1);
+		System.out.println("Duration year of learning is : " +duration);
+		System.out.println("Total semester are : "+total);		
+		System.out.println("Student name is : "+name2);
+		System.out.println("Pointer for semester one is : "+gpa1);
+		System.out.println("Pointer for semester two is : "+gpa2);
+		System.out.println("CGPA for both semester is : "+cgpa);
+		System.out.println("Grade for the CGPA gain is : "+grade);
+	}
+
+}
