@@ -1,0 +1,31 @@
+package numericData;
+//25.10.2021
+/*sum of five integers*/
+public class Exercise1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int num1=11,num2=22,num3=33,num4=44,num5=55,sum,avg;
+		double num6=66,num7=88,div,mul;
+		float num8=99,num9=200,div2,mul2;
+		
+		sum=num1+num2+num3+num3+num4+num5;
+		avg=sum/5;
+		div=num7/num6;
+		div2=num9/num8;
+		mul=num1*num2*num3*num4*num5*num6*num7*num8*num9;
+		mul2=(num1*num2)/num3;
+		
+		System.out.println("the sum is : "+sum);
+		System.out.println("the average is : "+avg);
+		System.out.printf("the divide number is : %.2f ",div);
+		System.out.printf("%nthe divide number is : %.2f ",div2);
+        System.out.println("\nthe multiplication of 9 integers is: "+mul);
+        System.out.print("the total is: "+mul2);
+        
+        //take 2 minutes
+              
+	}
+
+}
