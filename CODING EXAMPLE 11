@@ -1,0 +1,49 @@
+package numericData;
+import java.util.Scanner;
+public class Exercise3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+
+		int num1,num2,num3,num4,num5,num6,sum;
+        String name;
+        double balance1,balance2,amount;
+        char answer='Y';
+        
+ 
+        System.out.println("Please enter name: ");
+        name=sc.next();
+        System.out.println("Please enter your balance money left ");
+        balance1=sc.nextDouble();
+        System.out.println("Please enter your amount ");
+        amount=sc.nextDouble();
+        balance2=balance1-amount;
+        System.out.println("Your current balance is "+balance2);
+        System.out.println("Do you want to proceed, entered Y or N. ");
+        answer=sc.next().charAt(0);
+        System.out.println("The answer is "+answer);
+        
+		System.out.println("Please enter the amount 1: ");
+		num1=sc.nextInt();
+		System.out.println("Please enter the amount 2: ");
+		num2=sc.nextInt();
+		System.out.println("Please enter the amount 3: ");
+		num3=sc.nextInt();
+		System.out.println("Please enter the amount 4: ");
+		num4=sc.nextInt();
+		System.out.println("Please enter the amount 5: ");
+		num5=sc.nextInt();
+		System.out.println("Please enter the amount 6: ");
+		num6=sc.nextInt();
+		
+		sum=num1+num2+num3+num4+num5+num6;
+		
+		System.out.println();
+		System.out.println("The user name is "+name);
+		System.out.println("The amount entered is "+num1+","+num2+","+num3+","+num4+","+num5+","+num6);
+		System.out.println("The sum of 6 amout is: "+sum);
+
+	}
+
+}
