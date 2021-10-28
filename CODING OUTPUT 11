@@ -1,0 +1,26 @@
+Please enter name: 
+Fawatim
+Please enter your balance money left 
+100.30
+Please enter your amount 
+20.90
+Your current balance is 79.4
+Do you want to proceed, entered Y or N. 
+Y
+The answer is Y
+Please enter the amount 1: 
+6
+Please enter the amount 2: 
+7
+Please enter the amount 3: 
+8
+Please enter the amount 4: 
+0
+Please enter the amount 5: 
+9
+Please enter the amount 6: 
+7
+
+The user name is Fawatim
+The amount entered is 6,7,8,0,9,7
+The sum of 6 amout is: 37
