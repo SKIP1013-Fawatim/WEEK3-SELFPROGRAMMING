@@ -1,0 +1,20 @@
+package selfProgramming;
+import java.util.Scanner;
+public class Echo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+    Scanner sc = new Scanner(System.in);
+    
+    String message,text1,text2;
+    System.out.println("Enter a line of message, text1 and text2: ");
+    message=sc.nextLine();
+    text1=sc.nextLine();
+    text2=sc.nextLine();
+    System.out.println("you entered: \""+message+"\" ");
+    System.out.println("Entered text1 is \""+text1+"\"");
+    System.out.println("Entered text 2 is \""+text2+"\"" );
+
+	}
+
+}
