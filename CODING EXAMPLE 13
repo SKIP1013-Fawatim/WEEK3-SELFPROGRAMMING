@@ -1,0 +1,21 @@
+package selfProgramming;
+import java.util.Scanner;
+public class GasMileage {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		int miles;
+		double gallons,mpg;
+		
+		System.out.println("Enter the number of miles: ");
+        miles=sc.nextInt();
+        System.out.println("Enter the gallons of fuel used: ");
+        gallons=sc.nextDouble();
+        
+        mpg=miles/gallons;
+        
+        System.out.println("Miles Per Gallon: " +mpg);
+	}
+
+}
