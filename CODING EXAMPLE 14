@@ -1,0 +1,51 @@
+package selfProgramming;
+import java.util.Scanner;
+public class Example11 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        Scanner sc = new Scanner(System.in);
+        
+        //Data conversion
+        int dollars = 20,count = 12;
+        double money = dollars,sum = 490.27,result;
+        //assignment conversion, small to large only.
+        result=sum/count;
+        //promotion only happen auto
+        
+        System.out.println("money is "+money);
+        System.out.println("the result is "+(result));
+        
+        int total=50;
+        float result1 = (float)total/6;
+        System.out.println("casting data conversion "+result1);
+        //large to small
+        
+        double num=50.45;
+        int result2  = (int)num;
+        System.out.println("casting data conversion "+result2);
+        //dangerous, lost of data because from large to small.
+        
+        //complex arithmetic computing
+        int num1 = 4,num2=10,num4=89;
+        double num3 = 3.4567888;
+        double degree = 360;
+       
+        System.out.println();
+        System.out.println("The power 2 of 5 is "+Math.pow(5,2));
+        System.out.println("The max number between num1, num2, num3 and num4 is "+Math.max(num1,Math.max(num2,Math.max(num3,num4))));
+        System.out.println("The min number between num1 and num2 is "+Math.min(num1, num2));
+        System.out.println("The result exponential with power 2 is "+Math.exp(2));
+        System.out.println("The natural log is "+Math.log(10));
+        //natural log is log base e
+        System.out.println("The round number of num3 is "+Math.round(num3));
+        System.out.println("The sin of 360 in radian is "+Math.sin(degree));
+        //what is sin360 in rad mode
+        System.out.println("The cos of 360 in radian is "+Math.cos(degree));
+        //what is cos 360 in rad mode
+        System.out.println("The tan of 360 in radian is "+Math.tan(degree));
+        //what is tan360 in rad mode
+        System.out.println("The squareroot of 4 is "+Math.sqrt(4));
+	}
+
+}
